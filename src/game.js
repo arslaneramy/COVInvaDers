@@ -188,13 +188,12 @@ class Game {
       }
     });
   }
-  
 
   drawEnemies() {
     this.enemies.forEach((element) => {
       if (element.type === "virus-1") {
         this.enemies.image = new Image();
-        this.enemies.image.src = "./img/virus-1.png";
+        this.enemies.image.src = "img/virus-1.png";
         this.ctx.drawImage(
           this.enemies.image,
           element.x,
@@ -204,7 +203,7 @@ class Game {
         );
       } else if (element.type === "virus-2") {
         this.enemies.image = new Image();
-        this.enemies.image.src = "./img/virus-2.png";
+        this.enemies.image.src = "img/virus-2.png";
         this.ctx.drawImage(
           this.enemies.image,
           element.x,
@@ -228,7 +227,7 @@ class Game {
   drawEnemiesLaser() {
     this.enemiesLaser.forEach((element) => {
       this.enemiesLaser.image = new Image();
-      this.enemiesLaser.image.src = "./img/enemy-laser.png";
+      this.enemiesLaser.image.src = "img/enemy-laser.png";
       this.ctx.drawImage(
         this.enemiesLaser.image,
         element.x,
@@ -287,7 +286,7 @@ class Game {
   drawExtraPoints() {
     this.extraPoints.forEach((element) => {
       this.extraPoints.image = new Image();
-      this.extraPoints.image.src = "./img/potatoe-head.png";
+      this.extraPoints.image.src = "img/potatoe-head.png";
       this.ctx.drawImage(
         this.extraPoints.image,
         element.x,
@@ -368,7 +367,7 @@ class Game {
     this.intervalEnemiesMoveDown = clearInterval(this.intervalEnemiesMoveDown);
     this.intervalExtraPoints = clearInterval(this.intervalExtraPoints);
     this.interval = clearInterval(this.interval);
-     console.log("stop");
+    console.log("stop");
   }
 
   // Update function
