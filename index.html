@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Covid Invaders</title>
+    <link rel="shortcut icon" type="image/png" href="img/rick-sanchez.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+
+  <body class="body-container">
+    <div class="buttons">
+      <div id="img-start" style="display: block">
+        <div class="text-container">
+          <h1 class="title-start">COVInvaDers</h1>
+          <a class="start-button" id="start" style="display: block" href="#"
+            >Click here to play!</a
+          >
+        </div>
+        <div class="points-start-container">
+          <div class="start-value">
+            <div>
+              <img class="start-image" src="img/virus-2.png" alt="virus-2" />
+            </div>
+            <p class="start-value-text">= 10 points</p>
+          </div>
+          <div class="start-value">
+            <div>
+              <img class="start-image" src="img/virus-1.png" alt="virus-1" />
+            </div>
+            <p class="start-value-text">= 50 points</p>
+          </div>
+          <div class="start-value">
+            <div>
+              <img
+                class="start-image"
+                src="img/potatoe-head.png"
+                alt="potatoe"
+              />
+            </div>
+            <p class="start-value-text">= 200 points</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="gameOver" style="display: none">
+      <h2 id="gameOverTitle">Game Over!</h2>
+      <button id="tryAgain">Restart the game</button>
+    </section>
+
+    <section id="youWin" style="display: none">
+      <h2 id="youWinTitle">YOU WIN</h2>
+      <p class="points-win">Your score: <span id="total"></span></p>
+      <div class="container-button-win">
+        <div>
+          <img
+            class="win-virus"
+            src="img/rick-morty-won.png"
+            alt="rick-morty-won"
+          />
+        </div>
+        <p class="text-win">Rick's vaccine was *blurp* effective!</p>
+        <button id="playAgain">Click here to play again</button>
+      </div>
+    </section>
+
+    <div id="canvas-container">
+      <div id="container-points" style="display: none">
+        <div id="points" style="display: none">
+          <p class="points-text"><span id="number"></span></p>
+          <p class="points-text-score">points</p>
+        </div>
+      </div>
+
+      <div class="game-container">
+        <canvas
+          id="canvas"
+          style="display: none"
+          width="900"
+          height="600"
+        ></canvas>
+      </div>
+    </div>
+
+    <script src="src/player.js"></script>
+    <script src="src/enemy.js"></script>
+    <script src="src/laser.js"></script>
+    <script src="src/enemiesLaser.js"></script>
+    <script src="src/extraPoints.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+* {
+  font-family: "VT323", monospace;
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.body-container {
+  text-align: center;
+  background-size: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#img-start {
+  height: 100vh;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-value {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-left: -100px;
+  padding: 10px 0px 10px 0px;
+}
+
+.points-start-container {
+  padding-top: 20px;
+}
+
+.start-image {
+  width: 15%;
+}
+
+.start-value-text {
+  margin-left: -40px;
+  font-size: 4rem;
+  color: #000000;
+}
+
+.title-start {
+  color: #000000;
+  font-size: 11rem;
+  font-weight: 100;
+}
+
+.text-start {
+  color: #2b63ff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.text-desktop {
+  color: #2b63ff;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+.start-button {
+  padding: 20px;
+  font-size: 4rem;
+  background: transparent;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.start-button:hover {
+  color: #84c3ff;
+}
+
+#canvas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+canvas {
+  margin: 10px 40px 40px 40px;
+  border: 2px solid #84c3ff;
+  border-radius: 5px;
+}
+
+#container-points {
+  margin: 0px -90px 10px -790px;
+  text-align: left;
+}
+
+#number {
+  font-size: 35px;
+  color: #000000;
+}
+
+#total {
+  font-size: 35px;
+  color: #000000;
+}
+
+.points-text-score {
+  margin: -30px 0px 0px 60px;
+  font-size: 25px;
+  color: #000000;
+}
+
+.score-image {
+  width: 20px;
+}
+
+#gameOver {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#gameOverTitle {
+  font-size: 140px;
+  font-weight: 100;
+  color: #000000;
+  padding: 15% 0px 10px 0px;
+}
+
+#youWinTitle {
+  font-size: 140px;
+  font-weight: 100;
+  color: #000000;
+  padding: 8% 0px 10px 0px;
+}
+
+.points-win {
+  color: #000000;
+  font-size: 35px;
+}
+
+.win-virus {
+  width: 10%;
+  padding: 30px;
+}
+
+#playAgain {
+  font-size: 3rem;
+  padding: 20px;
+  background: transparent;
+  border: none;
+  color: #000000;
+}
+
+#playAgain:hover {
+  color: #84c3ff;
+}
+
+.text-win {
+  font-size: 4rem;
+  color: #000000;
+}
+
+#tryAgain {
+  font-size: 20px;
+  padding: 13px 40px 13px 40px;
+  margin-top: 35px;
+  border-radius: 10px;
+  border: 2px solid #2b63ff;
+  color: #2b63ff;
+}
+
+#tryAgain:hover {
+  background-color: white;
+  background-color: #2b63ff;
+  color: white;
+}
+
+.container-button-win {
+  display: flex;
+  flex-direction: column;
+}
