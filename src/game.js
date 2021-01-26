@@ -188,7 +188,6 @@ class Game {
       }
     });
   }
-  
 
   drawEnemies() {
     this.enemies.forEach((element) => {
@@ -368,7 +367,7 @@ class Game {
     this.intervalEnemiesMoveDown = clearInterval(this.intervalEnemiesMoveDown);
     this.intervalExtraPoints = clearInterval(this.intervalExtraPoints);
     this.interval = clearInterval(this.interval);
-     console.log("stop");
+    console.log("stop");
   }
 
   // Update function
