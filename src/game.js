@@ -15,13 +15,13 @@ class Game {
     this.points = 0;
     // this.lives = 0;
     this.enemiesKilledSound = new Audio();
-    this.enemiesKilledSound.src = "";
+    this.enemiesKilledSound.src = "sound/viruskill.wav";
     this.laserGun = new Audio();
-    this.laserGun.src = "";
+    this.laserGun.src = "sound/weaponsound.wav";
     this.youWinSound = new Audio();
-    this.youWinSound.src = "";
+    this.youWinSound.src = "sound/wubawuba.wav";
     this.gameOverSound = new Audio();
-    this.gameOverSound.src = "";
+    this.gameOverSound.src = "sound/gameover.mp3";
   }
 
   // Points
