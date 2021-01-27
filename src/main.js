@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     containerPoints.style = "display: block";
     const points = document.getElementById("points");
     points.style = "display: block";
+
   }
 
   function restart() {
