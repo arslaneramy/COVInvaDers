@@ -248,7 +248,7 @@ class Game {
           this.enemies[this.getRandomIntInclusive(0, 10)].y
         )
       );
-    }, 2000);
+    }, 700);
   }
 
   moveEnemiesLaserDown() {
