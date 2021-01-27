@@ -3,6 +3,7 @@
   padding: 0px;
   margin: 0px;
   font-size: 10px;
+  background-color: #ADD8E6;
 }
 
 .body-container {
@@ -48,11 +49,11 @@
 .start-value-text {
   margin-left: -40px;
   font-size: 4rem;
-  color: #000000;
+  color: blue;
 }
 
 .title-start {
-  color: #000000;
+  color:	#228B22;
   font-size: 11rem;
   font-weight: 100;
 }
@@ -78,7 +79,7 @@
   border: none;
   text-align: center;
   text-decoration: none;
-  color: #000000;
+  color: red;
   text-transform: uppercase;
 }
 
@@ -140,7 +141,7 @@ canvas {
 #youWinTitle {
   font-size: 140px;
   font-weight: 100;
-  color: #000000;
+  color: green;
   padding: 8% 0px 10px 0px;
 }
 
@@ -159,7 +160,7 @@ canvas {
   padding: 20px;
   background: transparent;
   border: none;
-  color: #000000;
+  color: red;
 }
 
 #playAgain:hover {
@@ -168,7 +169,7 @@ canvas {
 
 .text-win {
   font-size: 4rem;
-  color: #000000;
+  color: blue;
 }
 
 #tryAgain {
