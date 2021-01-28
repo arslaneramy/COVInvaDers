@@ -15,7 +15,7 @@ class Game {
     this.points = 0;
     // this.lives = 0;
     this.enemiesKilledSound = new Audio();
-    this.enemiesKilledSound.src = "sound/viruskill.wav";
+    this.enemiesKilledSound.src = "sound/killkill.wav";
     this.laserGun = new Audio();
     this.laserGun.src = "sound/laser-gun.mp3";
     this.youWinSound = new Audio();
