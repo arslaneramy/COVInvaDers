@@ -17,7 +17,7 @@ class Game {
     this.enemiesKilledSound = new Audio();
     this.enemiesKilledSound.src = "sound/viruskill.wav";
     this.laserGun = new Audio();
-    this.laserGun.src = "sound/weaponsound.wav";
+    this.laserGun.src = "sound/laser-gun.mp3";
     this.youWinSound = new Audio();
     this.youWinSound.src = "sound/wubawuba.wav";
     this.gameOverSound = new Audio();
